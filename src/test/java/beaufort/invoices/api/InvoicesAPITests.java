@@ -21,7 +21,7 @@ public class InvoicesAPITests {
 	}
 
 	@Test
-	public void testGetInvoicesReturnsSuccessStatus() throws IOException {
+	public void testGetInvoicesReturns200Status() throws IOException {
 		huc.setRequestMethod("GET");
 		huc.connect();
 		int expectedResponseCode = 200;
